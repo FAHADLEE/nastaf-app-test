@@ -1,0 +1,23 @@
+.TripDetails-container {
+    padding-bottom: 20px;
+}
+
+.TripDetails-container .field-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TripDetails-container .field-item .input label {
+    color: #585757;
+    font-weight: 500;
+}
+
+.TripDetails-container .field-item .input {
+    padding: 10px 15px;
+}
+.dialog-status{
+    padding: 5px 10px;
+    border-radius:10px ;
+    border: 2px solid rgb(145 254 159 / 47%);
+}

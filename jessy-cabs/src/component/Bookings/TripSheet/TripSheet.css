@@ -1,0 +1,120 @@
+.form-container .Title-Name {
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: 500;
+}
+
+.form-container {
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  color: #000;
+}
+
+.Tripsheet-header {
+  border-top: solid 1px #ccc;
+  background: var(--glass);
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: -10px;
+}
+
+.detail-container-main-Tripsheet {
+  border-top: 1px solid #ccc;
+  display: flex;
+  background-color: var(--glass);
+  padding: 20px 30px;
+  margin-top: 10px;
+}
+
+.form-container .Tripsheet-form::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  overflow-x: hidden;
+}
+
+.form-container .Title-Name {
+  position: relative;
+}
+
+.form-container .Title-Name::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 10px;
+  width: 100%;
+  border-radius: 20px;
+  height: 3px;
+  background-color: #457cdc;
+  /* Adjust color as needed */
+}
+
+.form-container .Tripsheet-form::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.form-container .Tripsheet-form::-webkit-scrollbar-thumb {
+  background-color: rgb(217, 212, 212);
+  outline: 1px solid slategrey;
+}
+
+.form-container .Tripsheet-form {
+  border: 2px solid #ccc;
+  overflow: scroll;
+  height: 75vh;
+  width: 81vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 28px;
+  border-radius: 20px;
+  color: #000;
+  background-color: var(--glass);
+}
+
+.secend-container {
+  border-top: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
+  background-color: var(--glass);
+  padding: 20px 20px;
+}
+
+/* TRIPSHEET CONETNT */
+.Tipsheet-content-table-main {
+  background: var(--glass);
+  padding: 40px;
+}
+
+.Tipsheet-content-table-main .Tipsheet-content-table {
+  border: 2px solid #ccc;
+  border-radius: 17px;
+  padding: 2px;
+}
+
+/* BOOKING SLIDER CONTENT*/
+/* Customer-Booking-Slider */
+.Customer-Booking-Slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* table-TripSheet */
+.table-TripSheet {
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+/* VENDOR INFO CONTENT */
+/*Dialogbox image*/
+.dialogboximg {
+  width: 535px;
+  /* height: 535px; */
+}
+.mapview {
+  width: 580px !important;
+  height: 550px !important;
+}

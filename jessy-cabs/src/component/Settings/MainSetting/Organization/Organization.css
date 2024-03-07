@@ -1,0 +1,130 @@
+.css-13xfq8m-MuiTabPanel-root {
+    display: flex;
+    padding: 0px !important;
+}
+
+.detail-container-main-organisation {
+    display: flex;
+    padding: 20px;
+    width: 70%;
+}
+
+.main-setting-main .organisation-form {
+    height: 70vh;
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    background-color: var(--glass);
+}
+
+
+
+.table-bookingCopy-PettyCash {
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: var(--glass);
+    margin: 0px 20px;
+}
+
+.Download-btn {
+    padding: 20px;
+}
+
+/* TIMER START */
+.input-field .times {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.input-field .times input {
+    width: 181px;
+    margin-top: 28px;
+    margin-bottom: 25px;
+    background: transparent;
+    text-align: inherit;
+    border: 1px solid #457cdc;
+    padding: 9px 8px 9px 10px;
+    border-radius: 4px;
+    font-size: 17px;
+}
+.organisation-details{
+    margin: 0px 20px 20px 20px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 20px 0px;
+    background-color: var(--glass);
+}
+.organisation-details .input {
+    margin-left: 20px;
+    justify-content: start !important;
+}
+.organisation-details .address-block{
+    display: flex;
+    flex-direction: column;
+}
+.input-field .times label {
+    position: absolute;
+    color: #272626;
+    font-size: 14px;
+    top: 0px;
+    font-weight: 500;
+    left: 5px;
+}
+
+/* TIMER END */
+.form-container-UserSettings .container-main::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    outline: 1px solid transparent;
+}
+
+.form-container-UserSettings .container-main {
+    border: 2px solid #ccc;
+    overflow: scroll;
+    height: 77vh;
+    width: 81vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    border-radius: 20px;
+    color: #000;
+    background-color: var(--glass);
+}
+
+.organisation-form .Title-Name {
+    position: relative;
+}
+
+.container-organisation-main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 30px auto;
+    background-color: var(--glass);
+    padding: 20px 35px 20px 0px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+
+.container-organisation-left {
+    height: 300px;
+    border-right: solid 3px #457cdc;
+}
+
+.container-organisation-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.user-photo-edit {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}

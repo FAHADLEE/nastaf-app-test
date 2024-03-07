@@ -1,0 +1,64 @@
+.css-13xfq8m-MuiTabPanel-root {
+    display: flex;
+    padding: 0px !important;
+}
+
+.SMSFormat-form {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    /* background-color: var(--glass); */
+}
+
+.SMSFormat-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: var(--glass);
+    padding-bottom: 30px;
+}
+
+.input-field .inputs {
+    width: 200px;
+    margin-top: 20px;
+}
+.input-field .inputs .sms-box{
+    background-color: var(--glass);
+}
+
+.Title-Names {
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.css-1c4hl6u {
+    position: relative;
+    margin-top: 0px !important;
+    height: 0px !important;
+}
+
+/* TABLE */
+.FuelRate-table-container {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: var(--glass);
+}
+
+.table-FuelRate {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    height: 400px;
+    width: 100%;
+}
+
+/* Date */
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {
+    border-color: #456ddc !important;
+}

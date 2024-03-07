@@ -1,0 +1,18 @@
+.CustomerReview {
+    width: 85%;
+    background: rgba(255, 255, 255, 0.957);
+    border-radius: 0.7rem;
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.apexcharts-tooltip.apexcharts-theme-light {
+    color: #000;
+}
+
+.apexcharts-menu.apexcharts-menu-open {
+    color: #000;
+}

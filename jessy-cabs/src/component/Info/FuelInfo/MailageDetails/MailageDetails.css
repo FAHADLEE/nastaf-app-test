@@ -1,0 +1,112 @@
+/* HEADER CONTAINER */
+.MailageDetails-page-header {
+    /* border-top: solid 1px #ccc; */
+    background: var(--glass);
+    padding: 20px;
+    padding-top: 40px;
+}
+
+/*SECEND-CONTAINER  */
+.Customer-page-secend-container {
+    display: flex;
+    border-top: solid 1px #ccc;
+    background-color: var(--glass);
+    padding: 20px;
+    /* margin-top: 10px; */
+}
+
+/* Button */
+
+.Download-btn {
+    padding: 20px 10px;
+}
+
+/* TABLE */
+.customer-list-table-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: var(--glass);
+}
+
+.table-customer-list {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    height: 400px;
+    width: 100%;
+    overflow: scroll;
+}
+
+.form-container-FuelInfo .Title-Name {
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.form-container-FuelInfo {
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    /* border-radius: 10px; */
+    flex-direction: column;
+    color: #000;
+
+}
+
+.detail-container-main-customer {
+    border-top: 1px solid #ccc;
+    background-color: var(--glass);
+    padding: 20px;
+}
+
+.form-container-FuelInfo .MailageDetails-form::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    overflow-x: hidden;
+}
+
+.form-container-FuelInfo .Title-Name::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    width: 100%;
+    border-radius: 20px;
+    height: 3px;
+    background-color: #457cdc;
+    /* Adjust color as needed */
+}
+
+.form-container-FuelInfo .MailageDetails-form::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.form-container-FuelInfo .MailageDetails-form::-webkit-scrollbar-thumb {
+    background-color: rgb(217, 212, 212);
+    outline: 1px solid slategrey;
+}
+
+.form-container-FuelInfo .MailageDetails-form {
+    border: 2px solid #ccc;
+    overflow: scroll;
+    height: 75vh;
+    width: 81vw;
+    background-color: var(--glass);
+    display: flex;
+    flex-direction: column;
+    padding-top: 28px;
+    border-radius: 20px;
+    color: #000;
+}
+
+
+.mailage-icone {
+    padding: 10px 10px 0px;
+    color: #616161;
+}
+
+.detailsFuel {
+    background-color: var(--glass);
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 15px 15px 25px;
+}

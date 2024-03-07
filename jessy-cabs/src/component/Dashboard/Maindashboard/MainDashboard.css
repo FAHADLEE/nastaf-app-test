@@ -1,0 +1,150 @@
+:root {
+  --yellow: linear-gradient(180deg, #f8d49a -146.42%, #fad79d -46.42%);
+  --orange: #fca61f;
+  --black: #242d49;
+  --gray: #788097;
+  --purple: linear-gradient(180deg, #bb67ff 0%, #c484f3 100%);
+  --pink: #ff919d;
+  --glass: rgba(255, 255, 255, 0.708);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+  --activeItem: #f799a354;
+}
+
+.dash-board.default {
+  background-image: url('https://nastaf.com/themes/theme-2.jpg');
+}
+
+.dash-board.theme1 {
+  background-image: url('https://nastaf.com/themes/theme-1.jpg');
+}
+
+.dash-board.theme2 {
+  background-image: url('https://nastaf.com/themes/theme-2.jpg');
+}
+
+.dash-board.theme3 {
+  background-image: url('https://nastaf.com/themes/theme-3.jpg');
+}
+
+.dash-board.theme4 {
+  background-image: url('https://nastaf.com/themes/theme-4.jpg');
+}
+
+.dash-board.theme5 {
+  background-image: url('https://nastaf.com/themes/theme-5.jpg');
+}
+
+.dash-board.theme6 {
+  background-image: url('https://nastaf.com/themes/theme-6.jpg');
+}
+
+.dash-board.theme7 {
+  background-image: url('https://nastaf.com/themes/theme-7.jpg');
+}
+
+.dash-board.theme8 {
+  background-image: url('https://nastaf.com/themes/theme-8.jpg');
+}
+
+
+.dash-board {
+  color: var(--black);
+  /* background: linear-gradient(106.37deg,#aeb3ca 29.63%,#b69ad6 51.55%,#a3e792 90.85%); */
+  background-repeat: no-repeat, repeat;
+  background-size: 100%;
+  background-image: url('https://nastaf.com/themes/theme-2.jpg');
+  transition: background-image 0.5s;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  display: grid;
+  height: 97%;
+  width: 97%;
+  /* background: var(--glass); */
+  backdrop-filter: blur(5px);
+  border-radius: 2rem;
+  border: 2px solid var(--glass);
+  gap: 16px;
+  grid-template-columns: 11rem auto 20rem;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+  .glass {
+    grid-template-columns: 10% 50% auto;
+    overflow-y: scroll;
+  }
+
+  .dash-board {
+    background-image: url("https://images.pexels.com/photos/5845709/pexels-photo-5845709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dash-board {
+    background-size: cover;
+    background-position: 50%;
+    background-image: url("https://images.pexels.com/photos/5845709/pexels-photo-5845709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  }
+
+  .header-user {
+    display: none !important;
+  }
+
+  .glass {
+    grid-template-columns: 100%;
+  }
+}
+
+
+.header-user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding: 0px 10px;
+  right: 30px;
+  border-radius: 10px;
+  border: 2px solid #17131327;
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  background-color: #cccccc44;
+}
+
+.user-name-item p {
+  text-transform: capitalize;
+  padding: 0px 5px;
+  color: #000;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.2s;
+}
+
+.user-name-item p:hover {
+  text-decoration: underline;
+  color: rgb(19, 109, 255);
+}
+
+.logout-item {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #cccccc21;
+  transition: .1s;
+}
+
+.logout-item:hover {
+  background-color: #cccccc6f;
+}
+
+.logout-icon {
+  cursor: pointer;
+  color: #000;
+}

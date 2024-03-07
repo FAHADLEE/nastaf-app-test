@@ -1,0 +1,79 @@
+.css-13xfq8m-MuiTabPanel-root {
+    display: flex;
+    padding: 0px !important;
+  }
+  .detail-container-main {
+    display: flex;
+  }
+  .form-container-booking .Title-Name {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .form-container-booking .BookingChart-form {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #000;
+    background-color: var(--glass);
+  }
+  .form-container-booking {
+    display: flex;
+    border-radius: 10px;
+  }
+  .form-container-booking .container-main::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    overflow-x: hidden;
+  }
+  .table-bookingCopy-BookingChart{
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background-color: var(--glass);
+    margin-top: 30px;
+  }
+  /* .form-container-booking .container-main::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    } */
+  
+  .form-container-booking .container-main::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    outline: 1px solid transparent;
+  }
+  .form-container-booking .container-main {
+    border: 2px solid #ccc;
+    overflow: scroll;
+    height: 77vh;
+    width: 81vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    border-radius: 20px;
+    color: #000;
+    background-color: var(--glass);
+  }
+  .BookingChart-form .Title-Name {
+    position: relative;
+  }
+  .copy-title-btn-BookingChart{
+    background: var(--glass);
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px 20px 35px 20px;
+    border: 2px solid #ccc;
+    border-radius: 15px ;
+  }
+  
+  .BookingChart-form .Title-Name::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    border-radius: 20px;
+    height: 3px;
+    background-color: #457cdc; /* Adjust color as needed */
+  }
+  

@@ -1,0 +1,43 @@
+.css-13xfq8m-MuiTabPanel-root {
+    display: flex;
+    padding: 0px !important;
+}
+
+.TaxSetting-form {
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+
+.TaxSetting-header {
+    background: var(--glass);
+    padding: 10px;
+    margin-bottom: -10px;
+}
+
+.css-1c4hl6u {
+    position: relative;
+    margin-top: 0px !important;
+    height: 0px !important;
+}
+/* TABLE */
+.TaxSetting-table-container {
+    margin-top: 10px;
+    padding-bottom:40px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: var(--glass);
+  }
+  .table-TaxSetting {
+    background-color: var(--glass);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    height: 400px;
+    width: 100%;
+  }
+/* Date */
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root.Mui-error .MuiOutlinedInput-notchedOutline {
+    border-color: #456ddc !important;
+}

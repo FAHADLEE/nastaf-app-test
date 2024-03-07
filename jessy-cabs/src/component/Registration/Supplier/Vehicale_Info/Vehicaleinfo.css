@@ -1,0 +1,110 @@
+.css-13xfq8m-MuiTabPanel-root {
+  display: flex;
+  padding: 0px !important;
+}
+.form-container .Title-Name {
+  font-size: 20px;
+  font-weight: 500;
+}
+.form-container {
+  display: flex;
+  border-radius: 10px;
+}
+.form-container .container-main::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  overflow-x: hidden;
+}
+.vehicale-form {
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  /* border-radius: 10px; */
+  color: #000;
+  background-color: var(--glass);
+}
+.detail-container-main-vehicale {
+  display: flex;
+}
+.list-update {
+  overflow: scroll;
+  height: 90%;
+}
+.list-update::-webkit-scrollbar {
+  width: 5px;
+  height: 0px;
+  /* overflow-x: hidden; */
+  cursor: pointer;
+  position: absolute;
+}
+
+.list-update::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.textbox .list-update::-webkit-scrollbar-thumb {
+  background-color: #457cdc;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.form-container .container-main::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.form-container .container-main::-webkit-scrollbar-thumb {
+  background-color: rgb(217, 212, 212);
+  outline: 1px solid slategrey;
+}
+.form-container .container-main {
+  border: 2px solid #ccc;
+  overflow: scroll;
+  height: 77vh;
+  width: 81vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  border-radius: 20px;
+  color: #000;
+  background-color: var(--glass);
+}
+
+/* TextBox */
+.textbox {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+
+.textboxupdate .textbox-container {
+  /* position: relative; */
+  border-radius: 5px;
+  overflow: scroll;
+  color: #3d3b3b;
+  padding: 5px;
+  font-weight: 500;
+  background-color: #fff;
+  height: 200px;
+  width: 300px;
+}
+
+.textbox-container .icon {
+  position: fixed;
+  bottom: 50px;
+  right: 80px;
+  border-radius: 50%;
+  background-color: #f8f8f8;
+  z-index: +9999;
+}
+.css-1c4hl6u {
+  position: relative;
+  margin-top: 0px !important;
+  height: 0px !important;
+}
+/* Date */
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root.Mui-error
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #456ddc !important;
+}

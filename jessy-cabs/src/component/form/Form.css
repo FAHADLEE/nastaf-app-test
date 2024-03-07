@@ -1,0 +1,358 @@
+/* Default styles for all devices */
+
+.portal-container {
+  height: 100vh;
+  /* background: linear-gradient(106.37deg,
+      #aeb3ca 29.63%,
+      #7e31d6 51.55%,
+      #a3e792 90.85%); */
+  background-image: url("https://images.pexels.com/photos/712618/pexels-photo-712618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-repeat: no-repeat, repeat;
+  background-size: 100%;
+}
+
+.glasses {
+  height: 100%;
+  width: 100%;
+  backdrop-filter: blur(10px);
+  gap: 16px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.right-col {
+  padding: 80px;
+  width: 50%;
+}
+
+.portal {
+  background: rgba(60, 60, 60, 0.443);
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 1px 0 8px #cccccc97;
+}
+
+.portal-container .portal-row {
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.portal-container .left-col {
+  width: 50%;
+}
+
+.portal .user-input {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+.portal .user-input label {
+  transition: all 0.3s ease;
+  bottom: 20px;
+  color: rgb(245, 237, 237);
+  position: absolute;
+  pointer-events: none;
+}
+
+.user-input input:focus~label,
+.user-input input:valid~label {
+  transform: translateY(-20px);
+  font-size: 18px;
+  color: #a3e792;
+}
+
+.user-input .under-line {
+  position: absolute;
+  bottom: 15px;
+  height: 2px;
+  width: 100%;
+}
+
+.user-input .under-line::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: rgba(65, 68, 70, 0.384);
+  transform: scaleX(0);
+}
+
+.user-input input:focus~.under-line::before,
+.user-input input:valid~.under-line::before {
+  transform: scaleX(1);
+}
+
+.user-input .pass-hide {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  bottom: 20px;
+  right: 11px;
+}
+
+.forget-link {
+  text-align: center;
+}
+
+.forget-link a {
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.portal .user-input input {
+  padding: 5px;
+  color: #f5f5f5;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #ccc;
+  background-color: transparent;
+}
+
+.social_media_container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+  margin-top: 2.1rem;
+}
+
+a.social {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #fff;
+  color: #000;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid #ececec;
+  box-shadow: 1px 0 10px #a3e792;
+}
+
+a.social i {
+  line-height: 2.9rem;
+  font-size: 25px;
+  transition: 0.5s;
+}
+
+a.linkedin {
+  color: rgb(67, 139, 221);
+}
+
+a.facebook {
+  color: rgb(67, 82, 221);
+}
+
+a.instagram {
+  color: rgb(221, 67, 100);
+}
+
+a.linkedin:hover {
+  color: #000;
+}
+
+a.facebook:hover {
+  color: #000;
+}
+
+a.instagram:hover {
+  color: #000;
+}
+
+a.social .icons {
+  height: 50px;
+  width: 50px;
+}
+
+.portal .title {
+  text-transform: capitalize;
+  font-size: 25px;
+  color: #a3e792;
+  font-weight: 500;
+  margin: 10px auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.group {
+  margin: 10px auto;
+  width: 80%;
+  height: 47px;
+  margin-top: 2.3rem;
+}
+
+.group input,
+.group button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+}
+
+.group.button-group {
+  width: 60%;
+}
+
+.group button {
+  position: relative;
+  background: transparent;
+  cursor: pointer;
+}
+
+.group button span {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: #a3e792;
+  letter-spacing: 1px;
+  background: transparent;
+  border-radius: 0.4rem;
+  z-index: 99;
+}
+
+.group button::before {
+  position: absolute;
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  top: 0px;
+  left: 0px;
+  border-top: 2px solid #a3e792;
+  border-left: 2px solid #a3e792;
+  border-top-left-radius: 0.6rem;
+  transition: all 0.3s ease;
+  transition-delay: 0s;
+}
+
+.group button::after {
+  position: absolute;
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  bottom: 0px;
+  right: 0px;
+  border-bottom: 2px solid #a3e792;
+  border-right: 2px solid #a3e792;
+  border-bottom-right-radius: 0.6rem;
+  transition: all 0.3s ease;
+  transition-delay: 0s;
+}
+
+.group button:hover {
+  box-shadow: 0 0 1.6rem #a3e792;
+  transition: all 0.2s ease;
+  transition-delay: 0.3s;
+}
+
+.group button:hover::before,
+.group button:hover::after {
+  width: 98%;
+  height: 95%;
+  border-radius: 0.6rem;
+}
+
+.signup-btn {
+  color: #fff;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .portal-container {
+    background-image: url("https://images.pexels.com/photos/712618/pexels-photo-712618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+
+  .glasses {
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    gap: 16px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .signup-btn {
+    margin: 0.5rem auto;
+
+  }
+
+  .right-col {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .left-col {
+    display: none;
+
+  }
+
+  .group {
+    margin-top: 1rem;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .portal-container {
+    background-image: url("https://images.pexels.com/photos/712618/pexels-photo-712618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+
+  .glasses {
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    gap: 16px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .signup-btn {
+    margin: 0.5rem auto;
+  }
+
+  .right-col {
+    padding: 40px;
+    width: 100%;
+  }
+
+  .portal {
+    width: 40%;
+    margin: 20px auto;
+  }
+
+  .left-col {
+    display: none;
+
+  }
+
+  .group {
+    margin-top: 1rem;
+  }
+
+}

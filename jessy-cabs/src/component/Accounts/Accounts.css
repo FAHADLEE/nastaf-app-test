@@ -1,0 +1,9 @@
+.Accounts-conatiner {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    gap: 1rem;
+    margin-top: 50px;
+    align-items: center;
+}

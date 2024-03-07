@@ -1,0 +1,314 @@
+.guest-sign #guestsign {
+  margin-top: 25px;
+  width: 95px;
+
+}
+
+.invoice-wrapper {
+  border: 0;
+  box-sizing: content-box;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  list-style: none;
+  margin: 20;
+  padding: 20;
+  text-decoration: none;
+  vertical-align: top;
+}
+
+.invoice-container-header {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.logo-image-invoice img {
+  width: 100px;
+  margin: 20px 10px;
+}
+
+.invoice-address {
+  width: 230px;
+}
+
+.invoice-address .invoice-contact-details {
+  font-weight: 600;
+  font-size: 13px;
+}
+
+/* heading */
+
+.invoice-wrapper header {
+  margin: 0 0 3em;
+}
+
+.invoice-wrapper h1 {
+  font: bold 100% sans-serif;
+  letter-spacing: 0.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.invoice-wrapper header h1 {
+  background: black;
+  border-radius: 0.25em;
+  color: white;
+  margin: 0 0 1em;
+  padding: 0.5em 0;
+}
+
+.invoice-wrapper header address {
+  float: left;
+  /* font-size: 75%; */
+  /* font-style: normal; */
+  /* line-height: 1.25; */
+  /* margin: 0 1em 1em 0; */
+}
+
+.dialogboximg {
+  height: 100px;
+  width: 100px;
+}
+
+.invoice-wrapper header span,
+header img {
+  display: block;
+  float: right;
+}
+
+
+.invoice-wrapper header img {
+  max-height: 50%;
+  max-width: 50%;
+}
+
+.invoice-wrapper header:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* article */
+
+
+
+.invoice-wrapper article h1 {
+  clip: rect(0 0 0 0);
+  position: absolute;
+}
+
+.invoice-wrapper article:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* table */
+.main-invoice-container {
+  border: 1px solid #000;
+
+}
+
+.first-table-invoice-container {
+  display: flex;
+}
+
+.secondTable {
+  display: flex;
+  border-top: 1px solid #000;
+}
+
+.vehicale-details-table {
+  width: 60%;
+  border-right: 1px solid #000;
+}
+
+.vehicale-details-table #table-headers,
+#table-datas {
+  padding: 6px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+}
+
+.guest-signature-details {
+  display: flex;
+  width: 40%;
+  padding: 5px;
+
+}
+
+.guest-signature-details .instruction {
+  width: 70%;
+  position: relative;
+}
+
+.guest-signature-details .guest-sign {
+  width: 40%;
+  position: relative;
+}
+
+.guest-signature-details .guest-sign p {
+  position: absolute;
+  bottom: 0;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.invoice-wrapper #table-invoice {
+  font-size: 75%;
+  table-layout: auto;
+  width: 100%;
+}
+
+.invoice-wrapper #table-invoice {
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+.invoice-wrapper #table-header,
+#table-data {
+  border-width: 1px;
+  padding: 6px;
+  position: relative;
+  text-align: left;
+}
+
+.invoice-wrapper #table-header {
+  background: #EEE;
+  padding: 6px;
+  border: none;
+}
+
+.invoice-wrapper #table-data {
+  padding: 6px;
+  border: none;
+  /* width: 100px; */
+}
+
+/* table firstTable */
+.invoice-wrapper #table-invoice.firstleftTable {
+  float: left;
+  width: 45%;
+  height: 50%;
+}
+
+.invoice-wrapper #table-invoice.firstTable {
+  float: right;
+  width: 45%;
+  height: 50%;
+}
+
+.invoice-wrapper #table-invoice.firstbottomTable {
+  float: right;
+  width: 100%;
+  height: 50%;
+}
+
+.invoice-wrapper #table-invoice.firstTable:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+
+/* table firstTable */
+
+.invoice-wrapper #table-invoice.firstTable #table-header {
+  width: 40%;
+}
+
+.invoice-wrapper #table-invoice.firstTable #table-data {
+  width: 60%;
+}
+
+.total-values {
+  display: flex;
+}
+
+.total-values #Totals {
+  margin: 10px;
+}
+
+.total-values #Totals #title {
+  font-weight: bold;
+}
+
+.invoice-wrapper form {
+  font: 16px/1 'Open Sans', sans-serif;
+  overflow: auto;
+  padding: 0.5in;
+}
+
+.invoice-wrapper form {
+  background: #999;
+  cursor: default;
+}
+
+.invoice-wrapper form {
+  box-sizing: border-box;
+  height: 11in;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0.5in;
+  width: 8.5in;
+}
+
+.invoice-wrapper form {
+  background: #FFF;
+  border-radius: 1px;
+  box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+}
+
+.invoice-wrapper aside h1#notes {
+  border: none;
+  border-width: 0 0 1px;
+  margin: 0 0 1em;
+}
+
+.invoice-wrapper aside h1#notes {
+  border-color: #999;
+  border-bottom-style: solid;
+  border-bottom-width: 10%;
+  font: bold 100% sans-serif;
+  letter-spacing: 0.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tripsheet-location-img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.tripsheet-location-img img {
+  width: 320px;
+}
+
+.tripsheet-RouteSummary {
+  width: 80%;
+  font-size: 13px;
+}
+
+.tripsheet-RouteSummary p {
+  font-weight: 600;
+}
+
+.tripsheet-RouteSummary ol {
+  font-size: 12px;
+  font-weight: 500;
+}
+.attached-toll{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+.attached-toll img {
+  width: 500px;
+}

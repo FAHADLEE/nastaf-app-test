@@ -1,0 +1,423 @@
+#invoiceholder body {
+    background: #E0E0E0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#invoiceholder .title-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    text-align: left;
+
+}
+
+#invoiceholder .title-details-container {
+    display: flex;
+}
+
+#invoiceholder .company-Client-details .GuestName {
+    text-transform: uppercase;
+}
+
+#invoiceholder .title-data-coantainer .invoice-data {
+    font-size: 12px;
+    font-weight: 700;
+    color: #7e7e7e;
+}
+
+#invoiceholder .address-container {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#invoiceholder #company-address {
+    width: 40%;
+}
+#invoiceholder #company-address p{
+    font-size: 13px;
+}
+#invoiceholder .company-Client-details {
+    width: 80%;
+    padding: 20px;
+    padding-top: 40px;
+
+}
+
+/* #invoiceholder #company-address {
+    width: 30%;
+} */
+
+#invoiceholder #invoice_date {
+    font-weight: 600;
+    float: center;
+}
+
+#invoiceholder .title {
+    float: right;
+}
+
+#invoiceholder .title p {
+    text-align: left;
+}
+
+/* ::selection {
+    background: #f31544;
+    color: #FFF;
+}
+
+::moz-selection {
+    background: #f31544;
+    color: #FFF;
+} */
+
+#invoiceholder .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#invoiceholder .col-left {
+    float: left;
+}
+
+#invoiceholder .col-right {
+    float: right;
+}
+
+#invoiceholder h1 {
+    font-size: 1.5em;
+    color: #444;
+}
+
+#invoiceholder h2 {
+    font-size: .9em;
+}
+
+#invoiceholder h3 {
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 2em;
+}
+
+#invoiceholder p {
+    font-size: .75em;
+    color: #666;
+    line-height: 1.2em;
+}
+
+#invoiceholder a {
+    text-decoration: none;
+    color: #00a63f;
+}
+
+#invoiceholder {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+}
+
+#invoiceholder #invoice {
+    position: relative;
+    margin: 0 auto;
+    width: 700px;
+    background: #FFF;
+}
+
+[id*='invoice-'] {
+    /* Targets all id with 'col-' */
+    /*  border-bottom: 1px solid #EEE;*/
+    padding: 20px;
+}
+
+#invoiceholder #invoice-top {
+    border-bottom: 2px solid #00a63f;
+}
+
+#invoiceholder #invoice-mid {
+    min-height: 110px;
+}
+
+#invoiceholder #invoice-bot {
+    min-height: 240px;
+}
+
+#invoiceholder .logo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 110px;
+    overflow: hidden;
+}
+
+#invoiceholder .info {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+#invoiceholder .logo img,
+#invoiceholder .clientlogo img {
+    width: 100%;
+}
+
+#invoiceholder .clientlogo {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+}
+
+#invoiceholder .clientinfo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px
+}
+
+
+#invoiceholder #message {
+    margin-bottom: 30px;
+    display: block;
+}
+
+#invoiceholder h2 {
+    margin-bottom: 5px;
+    color: #444;
+}
+
+#invoiceholder .col-right td {
+    color: #666;
+    padding: 5px 8px;
+    border: 0;
+    font-size: 0.75em;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#invoiceholder .col-right td label {
+    margin-left: 5px;
+    font-weight: 600;
+    color: #444;
+}
+
+#invoiceholder .cta-group a {
+    display: inline-block;
+    padding: 7px;
+    border-radius: 4px;
+    background: rgb(196, 57, 10);
+    margin-right: 10px;
+    min-width: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 0.75em;
+}
+
+#invoiceholder .cta-group .btn-primary {
+    background: #00a63f;
+}
+
+#invoiceholder .cta-group.mobile-btn-group {
+    display: none;
+}
+
+#invoiceholder table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#invoiceholder td {
+    padding: 10px;
+    border-bottom: 1px solid #cccaca;
+    font-size: 0.70em;
+    text-align: left;
+}
+
+#invoiceholder .tabletitle th {
+    border-bottom: 2px solid #ddd;
+    text-align: right;
+}
+
+#invoiceholder .tabletitle th:nth-child(2) {
+    text-align: left;
+}
+
+#invoiceholder th {
+    font-size: 0.7em;
+    text-align: left;
+    padding: 5px 10px;
+}
+
+#invoiceholder .item {
+    width: 50%;
+}
+
+#invoiceholder .list-item td {
+    text-align: right;
+}
+
+#invoiceholder .list-item td:nth-child(2) {
+    text-align: left;
+}
+
+#invoiceholder .total-row th,
+#invoiceholder .total-row td {
+    text-align: right;
+    font-weight: 700;
+    font-size: .75em;
+    border: 0 none;
+}
+
+#invoiceholder footer {
+    border-top: 1px solid #eeeeee;
+    ;
+    padding: 15px 20px;
+}
+
+#invoiceholder .effect2 {
+    position: relative;
+}
+
+#invoiceholder .effect2:before,
+.effect2:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width: 300px;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+#invoiceholder .effect2:after {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+}
+
+@media screen and (max-width: 767px) {
+    #invoiceholder h1 {
+        font-size: .9em;
+    }
+
+    #invoiceholder #invoice {
+        width: 100%;
+    }
+
+    #invoiceholder #message {
+        margin-bottom: 20px;
+    }
+
+    [id*='invoice-'] {
+        padding: 20px 10px;
+    }
+
+    #invoiceholder .logo {
+        width: 140px;
+    }
+
+    #invoiceholder .title {
+        float: none;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 40px;
+    }
+
+    #invoiceholder .title p {
+        text-align: left;
+    }
+
+    #invoiceholder .col-left,
+    #invoiceholder .col-right {
+        width: 100%;
+    }
+
+    #invoiceholder .table {
+        margin-top: 20px;
+    }
+
+    #invoiceholder #table {
+        white-space: nowrap;
+        overflow: auto;
+    }
+
+    #invoiceholder td {
+        white-space: normal;
+    }
+
+    #invoiceholder .cta-group {
+        text-align: center;
+    }
+
+    #invoiceholder .cta-group.mobile-btn-group {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    /*==================== Table ====================*/
+    #invoiceholder .table-main {
+        border: 0 none;
+    }
+
+    #invoiceholder .table-main thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    #invoiceholder .table-main tr {
+        border-bottom: 2px solid #eee;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    #invoiceholder .table-main td {
+        font-weight: 700;
+        display: block;
+        padding-left: 40%;
+        max-width: none;
+        position: relative;
+        border: 1px solid #cccaca;
+        text-align: left;
+    }
+
+    #invoiceholder .table-main td:before {
+        /*
+        * aria-label has no advantage, it won't be read inside a table
+        content: attr(aria-label);
+        */
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        font-weight: normal;
+        text-transform: uppercase;
+    }
+
+    #invoiceholder .total-row th {
+        display: none;
+    }
+
+    #invoiceholder .total-row td {
+        text-align: left;
+    }
+
+    #invoiceholder footer {
+        text-align: center;
+    }
+}

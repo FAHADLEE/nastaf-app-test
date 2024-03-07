@@ -1,0 +1,38 @@
+.css-13xfq8m-MuiTabPanel-root {
+    display: flex;
+    padding: 0px !important;
+}
+
+.FuelRate-form {
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+
+.FuelRate-header {
+    background: var(--glass);
+    padding: 10px;
+    margin-bottom: -10px;
+}
+
+.css-1c4hl6u {
+    position: relative;
+    margin-top: 0px !important;
+    height: 0px !important;
+}
+/* TABLE */
+.FuelRate-table-container {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: var(--glass);
+  }
+  .table-FuelRate {
+    background-color: var(--glass);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    height: 400px;
+    width: 100%;
+  }

@@ -1,0 +1,157 @@
+/* OnlineBooking.css */
+
+/* Styles for the title */
+.title {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styles for the booking container */
+.booking-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+
+/* Styles for the booking form */
+.booking-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for each form item */
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for items inside the form */
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Styles for the input label */
+.input-label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #12034d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styles for input fields, select elements, and textareas */
+.input-item,
+#selects,
+.textareas {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: transparent;
+}
+
+/* Styles for focused input fields, select elements, and textareas */
+.input-item:focus,
+#selects:focus,
+.textareas:focus {
+    outline: none;
+    border-color: #12034d;
+    box-shadow: 0 0 5px rgba(15, 70, 130, 0.5);
+}
+
+/* Styles for the online booking buttons */
+.btns-online {
+    padding: 12px 24px;
+    background-color: #12034d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Styles for the online booking buttons on hover */
+.btns-online:hover {
+    background-color: #0056b3;
+}
+
+/* Super CSS Animations */
+.booking-forms div {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Additional styles for input items and selects */
+.input-item,
+#selects {
+    border: none;
+    border-bottom: 2px solid #12034d;
+    color: #444;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Styles for placeholder text in input items and selects */
+.input-item::placeholder,
+#selects::placeholder {
+    color: #888;
+}
+
+/* Styles for focused input items, selects, and textareas */
+.input-item:focus,
+#selects:focus,
+.textareas:focus {
+    outline: none;
+    border-bottom: 2px solid #12034d;
+}
+
+/* Styles for textareas with vertical resize */
+.textareas {
+    resize: vertical;
+}
+
+/* Additional styles for the online booking buttons */
+.btns-online {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Styles for the hover effect on online booking buttons */
+.btns-online::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: height 0.3s ease;
+}
+
+/* Styles for the hover effect on online booking buttons */
+.btns-online:hover::before {
+    height: 100%;
+}
+
+/* Styles for the logout buttons */
+.logout-btns {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+}

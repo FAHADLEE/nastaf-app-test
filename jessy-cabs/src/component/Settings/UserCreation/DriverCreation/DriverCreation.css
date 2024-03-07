@@ -1,0 +1,57 @@
+/* Main Container For User Creation */
+.DriverCreation-main {
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+
+
+.DriverCreation-main .DriverCreation-form-container {
+    overflow: scroll;
+    height: 75vh;
+    width: 81vw;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    background-color: var(--glass);
+}
+
+.DriverCreation-header {
+    border-top: solid 1px #ccc;
+    background: var(--glass);
+    padding: 10px;
+    margin-bottom: -10px;
+}
+
+.DriverCreation-main .DriverCreation-form-container::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    overflow-x: hidden;
+}
+
+.DriverCreation-main .DriverCreation-form-container::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.DriverCreation-main .DriverCreation-form-container::-webkit-scrollbar-thumb {
+    background-color: rgb(217, 212, 212);
+    outline: 1px solid slategrey;
+}
+
+.DriverCreation-table-container {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: var(--glass);
+}
+
+.table-DriverCreations {
+    background: var(--glass);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}

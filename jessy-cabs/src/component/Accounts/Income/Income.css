@@ -1,0 +1,33 @@
+.form-container-Income .Title-Name {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form-container-Income {
+    display: flex;
+    border-radius: 10px;
+}
+
+.form-container-Income .container-main::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    overflow-x: hidden;
+}
+
+.form-container-Income .container-main::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    outline: 1px solid transparent;
+}
+
+.form-container-Income .container-main {
+    border: 2px solid #ccc;
+    overflow: scroll;
+    height: 77vh;
+    width: 81vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    border-radius: 20px;
+    color: #000;
+    background-color: var(--glass);
+}
