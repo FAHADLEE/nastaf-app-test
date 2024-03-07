@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nastaf-app-test/static/css/main.be0ce96b.css",
-    "main.js": "/nastaf-app-test/static/js/main.5c7afb18.js",
+    "main.js": "/nastaf-app-test/static/js/main.78867d03.js",
     "static/js/498.3e3ee57d.chunk.js": "/nastaf-app-test/static/js/498.3e3ee57d.chunk.js",
     "static/js/703.1f68e4e0.chunk.js": "/nastaf-app-test/static/js/703.1f68e4e0.chunk.js",
     "static/js/198.efef5fcc.chunk.js": "/nastaf-app-test/static/js/198.efef5fcc.chunk.js",
@@ -12,7 +12,7 @@
     "static/media/signature-1692258849846.png": "/nastaf-app-test/static/media/signature-1692258849846.c4d1a0875aca4ec05730.png",
     "index.html": "/nastaf-app-test/index.html",
     "main.be0ce96b.css.map": "/nastaf-app-test/static/css/main.be0ce96b.css.map",
-    "main.5c7afb18.js.map": "/nastaf-app-test/static/js/main.5c7afb18.js.map",
+    "main.78867d03.js.map": "/nastaf-app-test/static/js/main.78867d03.js.map",
     "498.3e3ee57d.chunk.js.map": "/nastaf-app-test/static/js/498.3e3ee57d.chunk.js.map",
     "703.1f68e4e0.chunk.js.map": "/nastaf-app-test/static/js/703.1f68e4e0.chunk.js.map",
     "198.efef5fcc.chunk.js.map": "/nastaf-app-test/static/js/198.efef5fcc.chunk.js.map",
@@ -20,6 +20,6 @@
   },
   "entrypoints": [
     "static/css/main.be0ce96b.css",
-    "static/js/main.5c7afb18.js"
+    "static/js/main.78867d03.js"
   ]
 }
